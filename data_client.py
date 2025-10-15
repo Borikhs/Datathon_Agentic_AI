@@ -7,7 +7,7 @@ from langchain_core.messages import HumanMessage
 from langchain_core.messages import SystemMessage
 
 load_dotenv()
-
+#test
 model = ChatOpenAI(model="gpt-4o")
 
 
@@ -168,3 +168,4 @@ async def main():
 if __name__ == "__main__":
     import asyncio
     asyncio.run(main())
+
