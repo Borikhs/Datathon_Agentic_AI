@@ -1,0 +1,79 @@
+{
+    "mcpServers": {
+        "data_server": {
+            "command": "python",
+            "args": [
+                "./data_server.py"
+            ]
+        },
+        "server-sequential-thinking": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@smithery/cli@latest",
+                "run",
+                "@smithery-ai/server-sequential-thinking",
+                "--key",
+                "b1d9e545-9eb8-42a5-bd8f-1e1d94a463e5",
+                "--profile",
+                "loyal-ermine-c6jgQT"
+            ]
+        },
+        "Windows-Command-Line-MCP-Server": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@smithery/cli@latest",
+                "run",
+                "@alxspiker/Windows-Command-Line-MCP-Server",
+                "--key",
+                "b1d9e545-9eb8-42a5-bd8f-1e1d94a463e5"
+            ]
+        },
+        "mem0-mcp": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@smithery/cli@latest",
+                "run",
+                "@big-omega/mem0-mcp",
+                "--key",
+                "b1d9e545-9eb8-42a5-bd8f-1e1d94a463e5",
+                "--profile",
+                "loyal-ermine-c6jgQT"
+            ]
+        },
+        "MCP SQLite Server": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "mcp-sqlite",
+                "C:\\Users\\khs03\\Desktop\\데이터톤\\mimic3_demo.db"
+            ]
+        },
+        "desktop-commander": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@smithery/cli@latest",
+                "run",
+                "@wonderwhy-er/desktop-commander",
+                "--key",
+                "b1d9e545-9eb8-42a5-bd8f-1e1d94a463e5"
+            ]
+        },
+        "pubmed-mcp-server": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@smithery/cli@latest",
+                "run",
+                "@JackKuo666/pubmed-mcp-server",
+                "--key",
+                "b1d9e545-9eb8-42a5-bd8f-1e1d94a463e5"
+            ]
+        }
+    }
+}
+
+
