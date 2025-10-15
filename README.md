@@ -1,67 +1,52 @@
-- 프로젝트 소개
-  - 프로젝트 설치방법 및 데모, 사용방법, 프리뷰등을 readme.md에 작성.
-  - Api나 사용방법등 내용이 많을경우 wiki에 꾸미고 링크 추가.
+# 🤖 MCP Multi-Server Agent
 
-- 팀페이지 꾸미기
-  - 프로젝트 소개 및 팀원 소개
-  - index.md 예시보고 수정.
+여러 MCP 서버를 통합하여 강력한 AI 에이전트를 제공합니다.
 
-- GitHub Pages 리파지토리 Settings > Options > GitHub Pages 
-  - Source를 marster branch
-  - Theme Chooser에서 태마선택
-  - 수정후 팀페이지 확인하여 점검.
+## 🎯 주요 기능
 
+### 연결된 MCP 서버
+- **data_server**: 데이터 분석 툴
+- **server-sequential-thinking**: AI 순차적 사고 프로세스
+- **Windows-Command-Line-MCP-Server**: Windows 시스템 제어
+- **mem0-mcp**: 사용자 메모리 관리
+- **MCP SQLite Server**: 데이터베이스 쿼리
+- **desktop-commander**: 데스크톱 제어
+- **pubmed-mcp-server**: PubMed 의학 정보 검색
 
+## 💡 사용 방법
 
-## 내용에 아래와 같은 내용들을 추가하세요.
+1. **질문 입력**: 채팅창에 원하는 질문이나 요청을 입력하세요
+2. **툴 자동 선택**: AI가 적절한 툴을 자동으로 선택합니다
+3. **실시간 피드백**: 툴 호출과 결과를 실시간으로 확인할 수 있습니다
 
-### 1. 프로잭트 소개
+## 🔧 예시
 
-프로젝트
-
-### 2. 소개 영상
-
-프로젝트 소개하는 영상을 추가하세요
-
-### 3. 팀 소개
-
-팀을 소개하세요.
-
-팀원정보 및 담당이나 사진 및 SNS를 이용하여 소개하세요.
-
-### 4. 사용법
-
-소스코드제출시 설치법이나 사용법을 작성하세요.
-
-### 5. 기타
-
-추가적인 내용은 자유롭게 작성하세요.
-
-
-## Markdown을 사용하여 내용꾸미기
-
-Markdown은 작문을 스타일링하기위한 가볍고 사용하기 쉬운 구문입니다. 여기에는 다음을위한 규칙이 포함됩니다.
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### 데이터 분석
+```
+CSV 파일의 'age' 컬럼 통계를 분석해주세요
 ```
 
-자세한 내용은 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### 시스템 정보
+```
+현재 실행 중인 프로세스 목록을 보여주세요
+```
 
-### Support or Contact
+### 순차적 사고
+```
+복잡한 수학 문제를 단계별로 풀어주세요
+```
 
-readme 파일 생성에 추가적인 도움이 필요하면 [도움말](https://help.github.com/articles/about-readmes/) 이나 [contact support](https://github.com/contact) 을 이용하세요.
+### 메모리 저장
+```
+내 이름은 홍길동이고, 데이터 분석가입니다. 기억해주세요.
+```
+
+## ⚠️ 주의사항
+
+- Critical한 의사결정이 필요한 경우 AI가 사용자 확인을 요청합니다
+- 모든 요청은 순차적 사고 도구를 통해 처리됩니다
+- UserID: khs
+
+## 🚀 시작하기
+
+왼쪽 채팅창에 질문을 입력하세요!
