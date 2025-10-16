@@ -1,0 +1,29 @@
+# 환경 변수 파일
+.env
+
+# Python 관련
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 가상환경 폴더
+venv/
+.env/
+.venv/
+env/
+
+# IDE 설정
+.vscode/
+.idea/
+
+# 로그 및 임시파일
+*.log
+*.tmp
+
+#클로드 코드
+.claude/
+
+# OS 기본 생성 파일
+.DS_Store
+Thumbs.db
