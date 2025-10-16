@@ -21,8 +21,9 @@ env/
 *.log
 *.tmp
 
-#클로드 코드
+#각종 캐시
 .claude/
+.chainlit/
 
 # OS 기본 생성 파일
 .DS_Store
